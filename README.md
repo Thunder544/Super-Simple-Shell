@@ -8,7 +8,7 @@ Then execute "./shell" and the shell prompt will appear.
 To clean up the files produced by the Makefile, type "make clean".
 
 ## Commands:
-The system supports the vast majority of correctly formatted linux system commands and can handle some malformed commands such as 'echo "hello" ;;;;;;' without error.
+The shell supports the vast majority of correctly formatted linux system commands and can handle some malformed commands such as 'echo "hello" ;;;;;;' without error.
 
 Commands which are separated by a semi colon are handled as separate child processes and are run concurrently.
 
