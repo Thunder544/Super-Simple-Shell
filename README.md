@@ -13,4 +13,4 @@ The shell supports the vast majority of correctly formatted linux system command
 Commands which are separated by a semi colon are handled as separate child processes and are run concurrently.
 
 ## Custom Commands:
-Currently, the only two custom commands are the "history" and "quit" functions. the "history" command will display all commands run during the current shell instance. And the "quit" command will quit the current shell instance.
+Currently, the only two custom commands are the "history" and "quit" functions. The "history" command will display all commands run during the current shell instance. The "quit" command will quit the current shell instance.
