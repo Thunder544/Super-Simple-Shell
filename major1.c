@@ -1,9 +1,9 @@
 /*
 Authors: Joseph Vargas (Josephvargas@my.unt.edu)
-	 Tyler Thornburg(tylerthornburg@my.unt.edu)
-	 Taylor Shinn(TaylorShinn@my.unt.edu)
-	 Sheyin Duniya(Sheyinduniya@gmail.com) 
-Description:   
+Description:
+This program spawns a shell in linux and has limited functionality. Created for CSCE3600 (Systems Programming).
+supports batch mode, and process forking.
+November 2016
 */
 
 #include <stdio.h>
@@ -29,8 +29,8 @@ void readHist();
 In main it will see if there are two arguments if there is 
 only one then it will call the shLoop() and be an intereactive shell.
 If there are 2 arguments it will open the file specified by the 
-command line and then if it is a real file it will say batch mode
-list the file given and keep reading in the commands and printing
+command line and then if it is a real file it will say batch mode,
+list the file given, and keep reading in the commands and printing
 them and executing them. If it does not exist it will give a message
 saying the file does not exist
 */
