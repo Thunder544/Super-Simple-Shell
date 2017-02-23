@@ -7,4 +7,4 @@ major1.o: major1.c
 		gcc -c major1.c
 
 clean: 
-		rm -rf *o shell
+		rm -rf *o shell history
