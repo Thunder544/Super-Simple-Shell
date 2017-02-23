@@ -5,6 +5,8 @@ To compile, copy the project to a directory in Linux and type "make".
 
 Then execute "./shell" and the shell prompt will appear.
 
+To clean up the files produced by the Makefile, type "make clean".
+
 ## Commands:
 The system supports all normally formatted linux system commands and can handle some malformed commands such as 'echo "hello" ;;;;;;' without error.
 
